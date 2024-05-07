@@ -10,6 +10,7 @@
 		"prettier": "prettier . --write",
 		"format": "pnpm run lint && pnpm run prettier",
 		"commitlint": "commitlint --edit",
+		"type:check": "tsc --pretty --noEmit",
 		"prepare": "husky install"
 	},
 	"dependencies": {
